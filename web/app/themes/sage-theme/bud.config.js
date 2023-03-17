@@ -1,5 +1,7 @@
 import bs from 'browser-sync-webpack-plugin'
 
+const DOMAIN = 'http://sage.test'
+
 /**
  * Build configuration
  *
@@ -31,13 +33,13 @@ export default async (app) => {
      * @see {@link https://bud.js.org/docs/bud.watch/}
      */
     .watch('resources/views/**/*', 'app/**/*')
-    .use(new bs({proxy: 'http://rhomotion.test'}))
+    .use(new bs({proxy: DOMAIN}))
 
     /**
      * Proxy origin (`WP_HOME`)
      * @see {@link https://bud.js.org/docs/bud.proxy/}
      */
-    .proxy('http://rhomotion.test')
+    .proxy(DOMAIN)
 
     /**
      * Development origin
