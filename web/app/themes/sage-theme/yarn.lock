@@ -2711,20 +2711,7 @@
     "@roots/bud-support" "6.11.0"
     "@roots/container" "6.11.0"
 
-"@roots/bud-babel@6.11.0":
-  version "6.11.0"
-  resolved "https://registry.npmjs.org/@roots/bud-babel/-/bud-babel-6.11.0.tgz#bb1c249ea8ee0a32e51cff307f794ab5144783a4"
-  integrity sha512-3HatcEoP3gOY5nL/vbdhJTnavTjY4KAJxaMmt8OvSSWHGVd0bcvhwxyCDcw3lRjWTQpK1ohyXviO+WwveSaggg==
-  dependencies:
-    "@babel/core" "7.20.12"
-    "@babel/plugin-transform-runtime" "7.19.6"
-    "@babel/preset-env" "7.20.2"
-    "@babel/runtime" "7.20.13"
-    "@roots/bud-framework" "6.11.0"
-    "@roots/bud-support" "6.11.0"
-    babel-loader "9.1.2"
-
-"@roots/bud-babel@^6.11.0":
+"@roots/bud-babel@6.11.0", "@roots/bud-babel@^6.11.0":
   version "6.11.0"
   resolved "https://registry.yarnpkg.com/@roots/bud-babel/-/bud-babel-6.11.0.tgz#bb1c249ea8ee0a32e51cff307f794ab5144783a4"
   integrity sha512-3HatcEoP3gOY5nL/vbdhJTnavTjY4KAJxaMmt8OvSSWHGVd0bcvhwxyCDcw3lRjWTQpK1ohyXviO+WwveSaggg==

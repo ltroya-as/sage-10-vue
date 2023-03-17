@@ -51,7 +51,7 @@ export default async (app) => {
      * URI of the `public` directory
      * @see {@link https://bud.js.org/docs/bud.setPublicPath/}
      */
-    .setPublicPath('/app/themes/rhomotion-theme/public/')
+    .setPublicPath('/app/themes/sage-theme/public/')
 
     /**
      * Generate WordPress `theme.json`
