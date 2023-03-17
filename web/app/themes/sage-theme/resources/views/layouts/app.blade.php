@@ -6,6 +6,9 @@
 
   <main id="main" class="main">
     @yield('content')
+
+    <h3>Vue should render the component here:</h3>
+    <app></app>
   </main>
 
   @hasSection('sidebar')
