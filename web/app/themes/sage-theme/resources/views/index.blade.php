@@ -9,7 +9,9 @@
     </x-alert>
     {!! get_search_form(false) !!}
   @endif
-  <div class="font-bold p-40 bg-gray-700 text-white">Prueba</div>
+
+  <div class="font-bold p-40 bg-gray-700 text-white">Test</div>
+
   @while(have_posts()) @php(the_post())
     @includeFirst(['partials.content-' . get_post_type(), 'partials.content'])
   @endwhile
