@@ -91,6 +91,6 @@ export default async (app) => {
     .useTailwindFontSize()
     .enable();
 
-  // app.vue.runtimeOnly(false)
-  app.vue.set('runtimeOnly', false)
+  app.vue.runtimeOnly(false)
+  // app.vue.set('runtimeOnly', false)
 };
